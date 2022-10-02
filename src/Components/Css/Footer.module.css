@@ -1,43 +1,52 @@
 .FmDiv {
-  background: rgba(38, 38, 38, 0.63);
-  box-shadow: 0px -5px 20px rgba(134, 134, 134, 0.25);
-  backdrop-filter: blur(11.5px);
-  padding: 40px 71px 13px 79px;
+    background: rgba(38, 38, 38, 0.63);
+    box-shadow: 0px -5px 20px rgba(134, 134, 134, 0.25);
+    backdrop-filter: blur(11.5px);
+    padding: 40px 71px 13px 79px;
 }
 
 .BottomDiv {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 51px;
 }
 
 .Line {
-  width: 54.167%;
-  border-style: solid;
-  border-width: 3px 0px 0px 0px;
+    width: 54.167%;
+    border-style: solid;
+    border-width: 3px 0px 0px 0px;
 }
 
 .lastLine {
-  font-family: Light;
-  text-align: center;
-  margin-top: 12px;
+    font-family: Light;
+    text-align: center;
+    margin-top: 12px;
 }
 
 #heart {
-  color: #e81224;
+    color: #e81224;
 }
 
 .ContactMe {
-  font-family: Bold;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 53px;
-  line-height: 64px;
-  color: #fd2155;
+    font-family: Bold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 53px;
+    line-height: 64px;
+    color: #fd2155;
 }
 
 .TopDiv {
-  display: flex;
-  justify-content: space-evenly;
+    display: flex;
+    justify-content: space-between;
+}
+
+.LeftDiv {
+    width: 55%;
+
+}
+
+.RightDiv {
+    width: 37.986%;
 }
