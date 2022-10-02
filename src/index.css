@@ -18,6 +18,12 @@
   src: url(./Inter_Tight/static/InterTight-Light.ttf);
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: LightItalic;
@@ -30,4 +36,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+html {
+  scroll-behavior: smooth;
 }
