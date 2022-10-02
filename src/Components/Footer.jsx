@@ -3,6 +3,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FCss from "./Css/Footer.module.css";
+import Contact from "./../Data/Contact.json";
 
 export default function Footer() {
   return (
@@ -10,7 +11,23 @@ export default function Footer() {
       <div className={FCss.TopDiv}>
         <div className={FCss.LeftDiv}>
           <p className={FCss.ContactMe}>Contact Me</p>
-          <div>Data</div>
+          <>
+            {Contact ? (
+              <>
+                {Contact.map((value, key) => {
+                  return (
+                    <div key={key}>
+                      <p>name: {value.name}</p>
+                      <p>number: {value.phoneNumber}</p>
+                      <p>email: {value.email}</p>
+                    </div>
+                  );
+                })}
+              </>
+            ) : (
+              ""
+            )}
+          </>
           <div className={FCss.SocialDiv}>
             <LinkedInIcon fontSize="large" id={FCss.LinkedInIcon} />
             <TwitterIcon fontSize="large" id={FCss.TwitterIcon} />
