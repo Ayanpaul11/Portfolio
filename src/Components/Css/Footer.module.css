@@ -48,7 +48,7 @@
 }
 
 .SocialDiv {
-    margin-top: 58px;
+    margin-top: 28px;
 }
 
 #TwitterIcon {
@@ -60,9 +60,25 @@
     color: #0A66C2;
 }
 
+.contactMapDivChild {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
 .contactIcon {
     color: #08FDD8;
+    margin-right: 26px;
+}
 
+.contactDivPTag {
+    display: flex;
+    align-items: center;
+    font-family: LightItalic;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
 }
 
 .RightDiv {
