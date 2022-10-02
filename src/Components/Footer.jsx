@@ -8,6 +8,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import PersonIcon from "@mui/icons-material/Person";
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
 
 export default function Footer() {
   return (
@@ -22,12 +23,26 @@ export default function Footer() {
                   return (
                     <div key={key}>
                       <p>
-                        <PersonIcon /> {value.name}
+                        <PersonIcon
+                          fontSize="large"
+                          className={FCss.contactIcon}
+                        />{" "}
+                        {value.name}
                       </p>
                       <p>
-                        <PhoneInTalkIcon /> {value.phoneNumber}
+                        <PhoneInTalkIcon
+                          fontSize="large"
+                          className={FCss.contactIcon}
+                        />{" "}
+                        {value.phoneNumber}
                       </p>
-                      <p>email: {value.email}</p>
+                      <p>
+                        <MailOutlineIcon
+                          fontSize="large"
+                          className={FCss.contactIcon}
+                        />{" "}
+                        {value.email}
+                      </p>
                     </div>
                   );
                 })}
