@@ -8,10 +8,10 @@ export default function Footer() {
   return (
     <div className={FCss.FmDiv}>
       <div className={FCss.TopDiv}>
-        <div>
+        <div className={FCss.LeftDiv}>
           <p className={FCss.ContactMe}>Contact Me</p>
         </div>
-        <div>Map</div>
+        <div className={FCss.RightDiv}>Map</div>
       </div>
       <div className={FCss.BottomDiv}>
         <div className={FCss.Line}></div>
