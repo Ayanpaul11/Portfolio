@@ -10,6 +10,12 @@ export default function Footer() {
       <div className={FCss.TopDiv}>
         <div className={FCss.LeftDiv}>
           <p className={FCss.ContactMe}>Contact Me</p>
+          <p>Data</p>
+          <div className={FCss.SocialDiv}>
+            <LinkedInIcon fontSize="large" />
+            <TwitterIcon fontSize="large" />
+            <GitHubIcon fontSize="large" />
+          </div>
         </div>
         <div className={FCss.RightDiv}>Map</div>
       </div>
