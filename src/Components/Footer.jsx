@@ -22,27 +22,29 @@ export default function Footer() {
                 {Contact.map((value, key) => {
                   return (
                     <div key={key}>
-                      <p className={FCss.contactDivPTag}>
+                      <div className={FCss.contactMapDivChild}>
                         <PersonIcon
                           fontSize="large"
                           className={FCss.contactIcon}
-                        />{" "}
-                        {value.name}
-                      </p>
-                      <p className={FCss.contactDivPTag}>
+                        />
+                        <p className={FCss.contactDivPTag}>{value.name}</p>
+                      </div>
+                      <div className={FCss.contactMapDivChild}>
                         <PhoneInTalkIcon
                           fontSize="large"
                           className={FCss.contactIcon}
-                        />{" "}
-                        {value.phoneNumber}
-                      </p>
-                      <p className={FCss.contactDivPTag}>
+                        />
+                        <p className={FCss.contactDivPTag}>
+                          {value.phoneNumber}
+                        </p>
+                      </div>
+                      <div className={FCss.contactMapDivChild}>
                         <MailOutlineIcon
                           fontSize="large"
                           className={FCss.contactIcon}
-                        />{" "}
-                        {value.email}
-                      </p>
+                        />
+                        <p className={FCss.contactDivPTag}> {value.email}</p>
+                      </div>
                     </div>
                   );
                 })}
