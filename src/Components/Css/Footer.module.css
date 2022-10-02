@@ -51,6 +51,15 @@
     margin-top: 58px;
 }
 
+#TwitterIcon {
+    margin: 0px 35px;
+    color: #1D9BF0;
+}
+
+#LinkedInIcon {
+    color: #0A66C2;
+}
+
 .RightDiv {
     width: 37.986%;
 }
