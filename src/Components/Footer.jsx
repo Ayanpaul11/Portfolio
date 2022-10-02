@@ -5,5 +5,15 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import FCss from "./Css/Footer.module.css";
 
 export default function Footer() {
-  return <div className={FCss.FmDiv}>Footer</div>;
+  return (
+    <div className={FCss.FmDiv}>
+      <div></div>
+      <div className={FCss.BottomDiv}>
+        <div className={FCss.Line}></div>
+        <p className={FCss.lastLine}>
+          Made with <span id={FCss.heart}>❤️</span> by Ayan Paul
+        </p>
+      </div>
+    </div>
+  );
 }
