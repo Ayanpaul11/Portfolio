@@ -7,8 +7,11 @@ import FCss from "./Css/Footer.module.css";
 export default function Footer() {
   return (
     <div className={FCss.FmDiv}>
-      <div>
-        <p className={FCss.ContactMe}>Contact Me</p>
+      <div className={FCss.TopDiv}>
+        <div>
+          <p className={FCss.ContactMe}>Contact Me</p>
+        </div>
+        <div>Map</div>
       </div>
       <div className={FCss.BottomDiv}>
         <div className={FCss.Line}></div>
