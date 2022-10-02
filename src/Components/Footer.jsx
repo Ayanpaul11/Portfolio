@@ -12,8 +12,8 @@ export default function Footer() {
           <p className={FCss.ContactMe}>Contact Me</p>
           <p>Data</p>
           <div className={FCss.SocialDiv}>
-            <LinkedInIcon fontSize="large" />
-            <TwitterIcon fontSize="large" />
+            <LinkedInIcon fontSize="large" id={FCss.LinkedInIcon} />
+            <TwitterIcon fontSize="large" id={FCss.TwitterIcon} />
             <GitHubIcon fontSize="large" />
           </div>
         </div>
