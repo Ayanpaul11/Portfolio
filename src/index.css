@@ -13,6 +13,11 @@
   src: url(./Inter_Tight/static/InterTight-LightItalic.ttf);
 }
 
+@font-face {
+  font-family: Light;
+  src: url(./Inter_Tight/static/InterTight-Light.ttf);
+}
+
 body {
   margin: 0;
   font-family: LightItalic;
