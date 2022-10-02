@@ -44,7 +44,11 @@
 
 .LeftDiv {
     width: 55%;
+    margin-bottom: 107px;
+}
 
+.SocialDiv {
+    margin-top: 58px;
 }
 
 .RightDiv {
