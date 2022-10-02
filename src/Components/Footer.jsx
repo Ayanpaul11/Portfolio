@@ -1,9 +1,13 @@
 import React from "react";
+import FCss from "./Css/Footer.module.css";
+import Contact from "./../Data/Contact.json";
+
+// icons
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import FCss from "./Css/Footer.module.css";
-import Contact from "./../Data/Contact.json";
+import PersonIcon from "@mui/icons-material/Person";
+import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 
 export default function Footer() {
   return (
@@ -17,8 +21,12 @@ export default function Footer() {
                 {Contact.map((value, key) => {
                   return (
                     <div key={key}>
-                      <p>name: {value.name}</p>
-                      <p>number: {value.phoneNumber}</p>
+                      <p>
+                        <PersonIcon /> {value.name}
+                      </p>
+                      <p>
+                        <PhoneInTalkIcon /> {value.phoneNumber}
+                      </p>
                       <p>email: {value.email}</p>
                     </div>
                   );
