@@ -14,8 +14,8 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="*" element={<Error />} />
         </Routes>
-        <Route path="*" element={<Error />} />
         <Footer />
       </Layout>
       {/* </Provider> */}
