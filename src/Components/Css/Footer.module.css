@@ -27,3 +27,13 @@
 #heart {
   color: #e81224;
 }
+
+.ContactMe {
+  font-family: Bold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 53px;
+  line-height: 64px;
+
+  color: #fd2155;
+}
