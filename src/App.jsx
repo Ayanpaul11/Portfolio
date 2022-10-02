@@ -4,6 +4,7 @@ import Layout from "./Pages/Layout";
 import Nav from "./Components/Nav";
 import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
+import Error from "./Pages/Error";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
+        <Route path="*" element={<Error />} />
         <Footer />
       </Layout>
       {/* </Provider> */}
