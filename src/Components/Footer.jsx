@@ -22,21 +22,21 @@ export default function Footer() {
                 {Contact.map((value, key) => {
                   return (
                     <div key={key}>
-                      <p>
+                      <p className={FCss.contactDivPTag}>
                         <PersonIcon
                           fontSize="large"
                           className={FCss.contactIcon}
                         />{" "}
                         {value.name}
                       </p>
-                      <p>
+                      <p className={FCss.contactDivPTag}>
                         <PhoneInTalkIcon
                           fontSize="large"
                           className={FCss.contactIcon}
                         />{" "}
                         {value.phoneNumber}
                       </p>
-                      <p>
+                      <p className={FCss.contactDivPTag}>
                         <MailOutlineIcon
                           fontSize="large"
                           className={FCss.contactIcon}
