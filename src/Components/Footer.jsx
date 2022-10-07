@@ -1,6 +1,7 @@
 import React from "react";
 import FCss from "./Css/Footer.module.css";
 import Contact from "./../Data/Contact.json";
+import Map from "./Map/Map";
 
 // icons
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -59,7 +60,9 @@ export default function Footer() {
             <GitHubIcon fontSize="large" />
           </div>
         </div>
-        <div className={FCss.RightDiv}>Map</div>
+        <div className={FCss.RightDiv}>
+          <Map />
+        </div>
       </div>
       <div className={FCss.BottomDiv}>
         <div className={FCss.Line}></div>
