@@ -1,8 +1,10 @@
 .p {
+    font-family: Bold;
     position: absolute;
     right: 0%;
-    top: 20px;
-    font-family: 'Inter';
+    top: 0px;
+    text-transform: uppercase;
+    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 800;
     font-size: 207.692px;
