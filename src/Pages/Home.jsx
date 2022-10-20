@@ -1,9 +1,11 @@
 import React from "react";
+import Header from "./../Components/Home/Header";
 import HCss from "./Css/Home.module.css";
 
 export default function Home() {
   return (
     <div>
+      <Header />
       Home
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sapiente
