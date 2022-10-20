@@ -60,9 +60,7 @@ export default function Footer() {
             <GitHubIcon fontSize="large" />
           </div>
         </div>
-        <div className={FCss.RightDiv}>
-          <Map />
-        </div>
+        <div className={FCss.RightDiv}>{/* <Map /> */}</div>
       </div>
       <div className={FCss.BottomDiv}>
         <div className={FCss.Line}></div>
