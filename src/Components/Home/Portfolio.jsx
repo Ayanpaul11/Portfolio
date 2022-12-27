@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PCSS from "./Css/Portfolio.module.css";
+import Graphic from "./../../Data/Graphic.json";
 
 export default function Portfolio() {
   const [show, set] = useState("GRAPHIC");
@@ -31,7 +32,19 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-      Portfolio
+      {Graphic ? (
+        <>
+          {Graphic.map((value, key) => {
+            return (
+              <div key={key}>
+                <img src={value.img} alt="" />
+              </div>
+            );
+          })}
+        </>
+      ) : (
+        ""
+      )}
     </div>
   );
 }
