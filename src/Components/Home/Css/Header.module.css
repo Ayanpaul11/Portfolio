@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
 .mDiv {
     height: 500.83px;
     background-color: #000000;
     color: #fff;
-    padding: 28px 0px 0px 100px;
+    padding: 70px 0px 0px 100px;
 }
 
 .PTagHeader {
@@ -15,5 +17,8 @@
 
 .PTagHeader span {
     color: #fd2155;
+}
 
+.ImgReact {
+    background-color: red;
 }
