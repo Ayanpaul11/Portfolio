@@ -20,7 +20,11 @@
     font-size: 53px;
     line-height: 64px;
     color: #fd2155;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+}
+
+.mapParent {
+    margin-bottom: 32px;
 }
 
 .MapImg {
@@ -46,4 +50,13 @@
 .contactIcon {
     color: #08fdd8;
     margin-right: 26px;
+}
+
+.TeaxtareaTag {
+    outline: none;
+    resize: none;
+    width: 100%;
+    background: rgba(32, 32, 32, 0.52);
+    border: 1px solid rgba(8, 253, 216, 0.14);
+    color: #fff;
 }
