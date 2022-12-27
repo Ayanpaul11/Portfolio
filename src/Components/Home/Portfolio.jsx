@@ -7,6 +7,7 @@ export default function Portfolio() {
 
   return (
     <div className={PCSS.mDiv}>
+      <p className={PCSS.GreyText}>DESIGN</p>
       <div className={PCSS.herderDiv}>
         <div className={PCSS.btnDivP}>
           <div
@@ -32,22 +33,24 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-      {Graphic ? (
-        <div className={PCSS.mapParentDiv}>
-          {Graphic.map((value, key) => {
-            return (
-              <img
-                key={key}
-                src={value.img}
-                alt=""
-                className={PCSS.mapImgTag}
-              />
-            );
-          })}
-        </div>
-      ) : (
-        ""
-      )}
+      <>
+        {Graphic ? (
+          <div className={PCSS.mapParentDiv}>
+            {Graphic.map((value, key) => {
+              return (
+                <img
+                  key={key}
+                  src={value.img}
+                  alt=""
+                  className={PCSS.mapImgTag}
+                />
+              );
+            })}
+          </div>
+        ) : (
+          ""
+        )}
+      </>
     </div>
   );
 }
