@@ -8,11 +8,8 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <br />
       <Bio />
-      <br />
       <Portfolio />
-      <br />
       <Services />
       <br />
       Contact
