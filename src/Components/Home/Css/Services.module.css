@@ -23,11 +23,15 @@
 
 .Box {
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: rgba(21, 21, 21, 0.55);
     border: 1px solid rgba(8, 253, 216, 0.5);
     backdrop-filter: blur(17.5px);
     border-radius: 32px;
-    padding: 42px 87px 95px 87px;
+    padding: 42px 87px;
 }
 
 .titleService {
@@ -38,4 +42,18 @@
     font-size: 44px;
     line-height: 53px;
     color: #08fdd8;
+}
+
+.imgSrc {
+    width: 250px;
+    height: 250px;
+}
+
+.serviceName {
+    margin-top: 30px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
 }
