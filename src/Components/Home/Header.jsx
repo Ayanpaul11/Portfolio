@@ -1,5 +1,6 @@
 import React from "react";
 import HCss from "./Css/Header.module.css";
+import ImgReact from "./../../assets/7.png";
 
 export default function Header() {
   return (
@@ -12,6 +13,8 @@ export default function Header() {
         <br />
         Paul Web Developer
       </p>
+
+      <img src={ImgReact} alt="Img_React" className={HCss.ImgReact} />
     </div>
   );
 }
