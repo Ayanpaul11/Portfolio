@@ -51,6 +51,7 @@ export default function Contact() {
             className={CCss.TeaxtareaTag}
             placeholder="Type your message...."
           ></textarea>
+          <button className={CCss.Send}>Send</button>
         </div>
         <img src={Map} alt="" className={CCss.MapImg} />
       </div>
