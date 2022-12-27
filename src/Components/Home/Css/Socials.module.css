@@ -1,0 +1,11 @@
+.mDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.LinkedIn,
+.Twitter {
+    margin-right: 39px;
+}
