@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
 .herderDiv {
     display: flex;
     justify-content: center;
@@ -6,6 +8,26 @@
 
 .btnDivP {
     display: flex;
-    border: 1px solid #08FDD8;
+    border: 1px solid #08fdd8;
     border-radius: 4px;
+}
+
+.GRAPHIC,
+.APP,
+.WEB {
+    padding: 10px 0px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #08fdd8;
+    width: 140px;
+    text-align: center;
+}
+
+.GRAPHIC,
+.APP {
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
 }
