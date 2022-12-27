@@ -13,6 +13,7 @@ export default function Services() {
           <p className={SCss.serviceName}>UI Designer | Frontend</p>
         </div>
       </div>
+      <p className={SCss.GreyText2}>RESEARCH</p>
     </div>
   );
 }
