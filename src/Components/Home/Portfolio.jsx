@@ -33,15 +33,18 @@ export default function Portfolio() {
         </div>
       </div>
       {Graphic ? (
-        <>
+        <div className={PCSS.mapParentDiv}>
           {Graphic.map((value, key) => {
             return (
-              <div key={key}>
-                <img src={value.img} alt="" className={PCSS.mapImgTag} />
-              </div>
+              <img
+                key={key}
+                src={value.img}
+                alt=""
+                className={PCSS.mapImgTag}
+              />
             );
           })}
-        </>
+        </div>
       ) : (
         ""
       )}
