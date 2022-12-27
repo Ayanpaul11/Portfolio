@@ -37,7 +37,7 @@ export default function Portfolio() {
           {Graphic.map((value, key) => {
             return (
               <div key={key}>
-                <img src={value.img} alt="" />
+                <img src={value.img} alt="" className={PCSS.mapImgTag} />
               </div>
             );
           })}
