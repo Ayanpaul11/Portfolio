@@ -4,8 +4,8 @@
 
 .GreyText {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: -86px;
+    left: -25px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -13,4 +13,27 @@
     line-height: 218px;
     color: #353535;
     z-index: 0;
+}
+
+.mCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box {
+    background: rgba(21, 21, 21, 0.55);
+    border: 1px solid rgba(8, 253, 216, 0.5);
+    backdrop-filter: blur(17.5px);
+    border-radius: 32px;
+}
+
+.titleService {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 53px;
+    color: #08fdd8;
 }
