@@ -1,6 +1,9 @@
 import React from "react";
 import CCss from "./Css/Contact.module.css";
 import ContactData from "./../../Data/Contact.json";
+import Socials from "./Socials";
+
+// icons
 import Map from "./../../assets/Mapsicle Map.png";
 import user from "./../../assets/user.png";
 import phoneCall from "./../../assets/phone-call.png";
@@ -55,6 +58,7 @@ export default function Contact() {
         </div>
         <img src={Map} alt="" className={CCss.MapImg} />
       </div>
+      <Socials />
     </div>
   );
 }
