@@ -13,7 +13,7 @@ export default function Contact() {
         <div>
           <p className={CCss.ContactMe}>Contact Me</p>
           {ContactData ? (
-            <>
+            <div className={CCss.mapParent}>
               {ContactData.map((value, key) => {
                 return (
                   <div key={key}>
@@ -39,10 +39,18 @@ export default function Contact() {
                   </div>
                 );
               })}
-            </>
+            </div>
           ) : (
             ""
           )}
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            className={CCss.TeaxtareaTag}
+            placeholder="Type your message...."
+          ></textarea>
         </div>
         <img src={Map} alt="" className={CCss.MapImg} />
       </div>
