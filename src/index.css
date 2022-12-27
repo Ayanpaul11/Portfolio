@@ -55,7 +55,7 @@ input[type="number"] {
 }
 
 #selected {
-  background-color: #08FDD8;
+  background: rgba(8, 253, 216, 0.17);
 }
 
 #NotSelected {
