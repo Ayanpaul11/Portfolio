@@ -13,17 +13,6 @@
     padding: 40px 53px 0px 73px;
 }
 
-.GreyText {
-    /* position: absolute; */
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 180px;
-    line-height: 218px;
-    color: #353535;
-    z-index: 0;
-}
-
 .ContactMe {
     font-family: "Inter", sans-serif;
     font-style: normal;
