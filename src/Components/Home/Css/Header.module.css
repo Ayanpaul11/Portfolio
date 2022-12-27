@@ -3,7 +3,7 @@
 
 .mDiv {
     position: relative;
-    height: 600px;
+    height: 650px;
     background-color: #000000;
     color: #fff;
     padding: 70px 0px 0px 100px;
@@ -43,6 +43,7 @@
 .GreyText {
     position: absolute;
     left: 0px;
+    bottom: -80px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
