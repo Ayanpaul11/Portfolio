@@ -1,4 +1,5 @@
 import React from "react";
+import Map from "./../../assets/Mapsicle Map.png";
 import CCss from "./Css/Contact.module.css";
 
 export default function Contact() {
@@ -10,7 +11,7 @@ export default function Contact() {
         <div>
           <p className={CCss.ContactMe}>Contact Me</p>
         </div>
-        <div>map</div>
+        <img src={Map} alt="" className={CCss.MapImg} />
       </div>
     </div>
   );
