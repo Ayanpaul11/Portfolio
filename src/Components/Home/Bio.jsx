@@ -10,6 +10,7 @@ export default function Bio() {
         together with amazing people from companies around the globe. It's only
         a drop in the ocean compared to the entire list.
       </p>
+      <p>Read More</p>
     </div>
   );
 }
