@@ -9,12 +9,12 @@
 .line {
     width: 54.16%;
     height: 2px;
-    background: #08FDD8;
+    background: #08fdd8;
     margin-bottom: 19px;
 }
 
 .lastLine {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
