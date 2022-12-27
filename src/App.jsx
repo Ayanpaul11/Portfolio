@@ -6,7 +6,6 @@ import Error from "./Pages/Error";
 
 // Components
 import Nav from "./Components/Nav";
-import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Error />} />
         </Routes>
-        <Footer />
       </Layout>
     </BrowserRouter>
   );
