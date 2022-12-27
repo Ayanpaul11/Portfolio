@@ -13,6 +13,7 @@ export default function Header() {
         <br />
         Web Developer
       </p>
+      <p className={HCss.skiilsPTag}>UI/UX Designer | Frontend Developer </p>
 
       <img src={ImgReact} alt="Img_React" className={HCss.ImgReact} />
       <p className={HCss.GreyText}>DEVELOP</p>
