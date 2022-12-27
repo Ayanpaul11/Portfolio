@@ -1,15 +1,15 @@
 .mDiv {
     position: relative;
+    background: rgba(38, 38, 38, 0.33);
+    box-shadow: 0px -5px 20px rgba(134, 134, 134, 0.25);
+    backdrop-filter: blur(11.5px);
+    z-index: 1;
 }
 
 .mConDiv {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(38, 38, 38, 0.33);
-    box-shadow: 0px -5px 20px rgba(134, 134, 134, 0.25);
-    backdrop-filter: blur(11.5px);
-    z-index: 1;
     padding: 40px 53px 0px 73px;
 }
 
@@ -89,4 +89,28 @@
     line-height: 17px;
     color: #000000;
     cursor: pointer;
+}
+
+.mDivBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.line {
+    width: 54.16%;
+    height: 2px;
+    background: #08fdd8;
+    margin-bottom: 19px;
+}
+
+.lastLine {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 20px;
 }
