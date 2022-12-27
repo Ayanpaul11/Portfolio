@@ -48,7 +48,7 @@ input[type="number"] {
 .pageExt {
   max-width: 1750px;
   width: 100%;
-  background-color: #fff;
+  background-color: #000;
   overflow-y: auto;
   overflow-x: hidden;
 }
