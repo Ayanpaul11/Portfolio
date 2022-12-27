@@ -1,43 +1,63 @@
-@font-face {
-  font-family: Bold;
-  src: url(./Inter_Tight/static/InterTight-Bold.ttf);
-}
-
-@font-face {
-  font-family: Medium;
-  src: url(./Inter_Tight/static/InterTight-Medium.ttf);
-}
-
-@font-face {
-  font-family: LightItalic;
-  src: url(./Inter_Tight/static/InterTight-LightItalic.ttf);
-}
-
-@font-face {
-  font-family: Light;
-  src: url(./Inter_Tight/static/InterTight-Light.ttf);
-}
-
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-body {
+.LinkStyle {
+  text-decoration: none;
+  color: inherit;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
   margin: 0;
-  font-family: LightItalic;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: #000000;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  padding: 0px 20px;
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(161, 161, 161);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(145, 145, 145);
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #DBDBDB;
+}
+
+.pageExt {
+  max-width: 1750px;
+  width: 100%;
+  background-color: #000;
   color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+#selected {
+  background: rgba(8, 253, 216, 0.17);
 }
 
-html {
-  scroll-behavior: smooth;
+#NotSelected {
+  background-color: transparent;
 }
