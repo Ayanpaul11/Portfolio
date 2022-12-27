@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
 
 .mDiv {
+    position: relative;
     height: 500.83px;
     background-color: #000000;
     color: #fff;
@@ -20,5 +21,11 @@
 }
 
 .ImgReact {
-    background-color: red;
+    width: 321px;
+    /* height: 693.46px; */
+    /* background-color: red; */
+    position: absolute;
+    bottom: -64px;
+    right: 54.3px;
+    z-index: 0;
 }
