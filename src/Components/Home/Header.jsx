@@ -1,10 +1,11 @@
 import React from "react";
 import HCss from "./Css/Header.module.css";
 import ImgReact from "./../../assets/7.png";
+import ImgReact2 from "./../../assets/img.jpg";
 
 export default function Header() {
   return (
-    <div className={HCss.mDiv}>
+    <div className={HCss.mDiv} style={{ backgroundColor: `${ImgReact2}` }}>
       <p className={HCss.PTagHeader}>
         Hi,
         <br />
