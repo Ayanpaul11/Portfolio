@@ -53,10 +53,24 @@
 }
 
 .TeaxtareaTag {
+    font-family: "Inter", sans-serif;
     outline: none;
     resize: none;
     width: 100%;
     background: rgba(32, 32, 32, 0.52);
     border: 1px solid rgba(8, 253, 216, 0.14);
     color: #fff;
+    padding: 15px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.TeaxtareaTag::placeholder {
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #08fdd8;
 }
