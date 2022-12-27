@@ -4,10 +4,6 @@ import PCSS from "./Css/Portfolio.module.css";
 export default function Portfolio() {
   const [show, set] = useState("GRAPHIC");
 
-  useEffect(() => {
-    console.log(show);
-  }, [show]);
-
   return (
     <div>
       <div className={PCSS.herderDiv}>
