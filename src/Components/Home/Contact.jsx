@@ -59,6 +59,10 @@ export default function Contact() {
         <img src={Map} alt="" className={CCss.MapImg} />
       </div>
       <Socials />
+      <div className={CCss.mDivBottom}>
+        <div className={CCss.line}></div>
+        <p className={CCss.lastLine}>Made with 💖 by Ayan Paul</p>
+      </div>
     </div>
   );
 }
