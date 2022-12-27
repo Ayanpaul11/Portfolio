@@ -49,6 +49,7 @@ input[type="number"] {
   max-width: 1750px;
   width: 100%;
   background-color: #000;
+  color: #fff;
   overflow-y: auto;
   overflow-x: hidden;
 }
