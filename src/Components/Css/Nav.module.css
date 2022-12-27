@@ -16,3 +16,22 @@
     line-height: 39px;
     color: #fd2155;
 }
+
+.hamburger {
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+
+.bur1,
+.bur2,
+.bur3 {
+    width: 50px;
+    height: 2px;
+    background-color: #fd2155;
+}
+
+.bur1,
+.bur2 {
+    margin-bottom: 5px;
+}
