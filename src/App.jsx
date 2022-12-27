@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <Layout>
-        <Nav />
+        <Nav leftTitle="My Portfolio" />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Error />} />
