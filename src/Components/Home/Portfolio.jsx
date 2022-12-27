@@ -6,7 +6,7 @@ export default function Portfolio() {
   const [show, set] = useState("GRAPHIC");
 
   return (
-    <div>
+    <div className={PCSS.mDiv}>
       <div className={PCSS.herderDiv}>
         <div className={PCSS.btnDivP}>
           <div
