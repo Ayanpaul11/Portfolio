@@ -1,0 +1,16 @@
+.mDiv {
+    position: relative;
+}
+
+.GreyText {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 180px;
+    line-height: 218px;
+    color: #353535;
+    z-index: 0;
+}
