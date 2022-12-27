@@ -28,8 +28,8 @@
 }
 
 .MapImg {
-    width: 500px;
-    height: 500px;
+    width: 547px;
+    height: 547px;
 }
 
 .contactMapDivChild {
@@ -64,6 +64,7 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
+    margin-bottom: 15px;
 }
 
 .TeaxtareaTag::placeholder {
@@ -73,4 +74,18 @@
     font-size: 14px;
     line-height: 17px;
     color: #08fdd8;
+}
+
+.Send {
+    width: 63px;
+    height: 31px;
+    background: #25FFDE;
+    border-radius: 12px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    cursor: pointer;
 }
