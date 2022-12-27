@@ -1,5 +1,19 @@
 .mDiv {
-    height: 528.83px;
+    height: 500.83px;
     background-color: #000000;
     color: #fff;
+    padding: 28px 0px 0px 100px;
+}
+
+.PTagHeader {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 116px;
+}
+
+.PTagHeader span {
+    color: #fd2155;
+
 }
