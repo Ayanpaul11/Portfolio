@@ -7,6 +7,7 @@
     background-color: #000000;
     color: #fff;
     padding: 70px 0px 0px 100px;
+    z-index: 0;
 }
 
 .PTagHeader {
@@ -50,4 +51,5 @@
     font-size: 180px;
     line-height: 218px;
     color: #353535;
+    z-index: 0;
 }
