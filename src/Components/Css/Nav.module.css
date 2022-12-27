@@ -21,6 +21,8 @@
     cursor: pointer;
     background-color: transparent;
     transition: all 0.3s;
+    height: 38px;
+    /* background-color: #fff; */
 }
 
 .bur1,
@@ -33,5 +35,5 @@
 
 .bur1,
 .bur2 {
-    margin-bottom: 5px;
+    margin-bottom: 32%;
 }
