@@ -39,3 +39,14 @@
     right: 54.3px;
     z-index: 0;
 }
+
+.GreyText {
+    position: absolute;
+    left: 0px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 180px;
+    line-height: 218px;
+    color: #353535;
+}
