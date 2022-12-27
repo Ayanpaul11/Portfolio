@@ -1,0 +1,23 @@
+.mDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.line {
+    width: 54.16%;
+    height: 2px;
+    background: #08FDD8;
+    margin-bottom: 19px;
+}
+
+.lastLine {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
