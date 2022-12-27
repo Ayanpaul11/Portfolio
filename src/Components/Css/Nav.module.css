@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
 .mDiv {
-    background-color: #0F0F0F;
+    background-color: #0f0f0f;
     color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.pTagHead {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #fd2155;
 }
