@@ -9,12 +9,13 @@ export default function Header() {
         Hi,
         <br />
         I'm
-        <span> Ayan </span>
+        <span> Ayan </span>Paul
         <br />
-        Paul Web Developer
+        Web Developer
       </p>
 
       <img src={ImgReact} alt="Img_React" className={HCss.ImgReact} />
+      <p className={HCss.GreyText}>DEVELOP</p>
     </div>
   );
 }
