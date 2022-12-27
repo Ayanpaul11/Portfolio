@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 .mDiv {
     position: relative;
@@ -9,7 +10,7 @@
 }
 
 .PTagHeader {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 96px;
@@ -18,6 +19,14 @@
 
 .PTagHeader span {
     color: #fd2155;
+}
+
+.skiilsPTag {
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
 }
 
 .ImgReact {
