@@ -1,0 +1,11 @@
+.herderDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnDivP {
+    display: flex;
+    border: 1px solid #08FDD8;
+    border-radius: 4px;
+}
