@@ -6,6 +6,11 @@ import Web from "./../../Data/Web.json";
 
 export default function Portfolio() {
   const [show, set] = useState("Graphic");
+  const [map, setMap] = useState("Graphic");
+
+  useEffect(() => {
+    console.log(show);
+  }, [show]);
 
   return (
     <div className={PCSS.mDiv}>
