@@ -6,10 +6,9 @@ import Web from "./../../Data/Web.json";
 
 export default function Portfolio() {
   const [show, set] = useState("Graphic");
-  const [map, setMap] = useState("Graphic");
+  const [map, setMap] = useState(Graphic);
 
   useEffect(() => {
-    // setMap(show);
     if (show === "Graphic") {
       setMap(Graphic);
     } else if (show === "App") {
@@ -53,9 +52,9 @@ export default function Portfolio() {
         </div>
       </div>
       <>
-        {Graphic ? (
+        {map ? (
           <div className={PCSS.mapParentDiv}>
-            {Graphic.map((value, key) => {
+            {map.map((value, key) => {
               return (
                 <img
                   key={key}
