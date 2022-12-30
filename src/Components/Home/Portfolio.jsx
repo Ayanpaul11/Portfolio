@@ -1,9 +1,32 @@
 import React, { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+
+// Css
 import PCSS from "./Css/Portfolio.module.css";
+
+// Data
 import Graphic from "./../../Data/Graphic.json";
+import App from "./../../Data/App.json";
+import Web from "./../../Data/Web.json";
 
 export default function Portfolio() {
-  const [show, set] = useState("GRAPHIC");
+  const [show, set] = useState("Graphic");
+  const [map, setMap] = useState(Graphic);
+
+  useEffect(() => {
+    if (show === "Graphic") {
+      setMap(Graphic);
+    } else if (show === "App") {
+      setMap(App);
+    } else if (show === "Web") {
+      setMap(Web);
+    }
+  }, [show]);
+
+  useEffect(() => {
+    console.log(show);
+    console.log(map);
+  }, [map]);
 
   return (
     <div className={PCSS.mDiv}>
@@ -12,31 +35,31 @@ export default function Portfolio() {
         <div className={PCSS.btnDivP}>
           <div
             className={PCSS.GRAPHIC}
-            id={show === "GRAPHIC" ? "selected" : "NotSelected"}
-            onClick={() => set("GRAPHIC")}
+            id={show === "Graphic" ? "selected" : "NotSelected"}
+            onClick={() => set("Graphic")}
           >
             GRAPHIC
           </div>
           <div
             className={PCSS.APP}
-            id={show === "APP" ? "selected" : "NotSelected"}
-            onClick={() => set("APP")}
+            id={show === "App" ? "selected" : "NotSelected"}
+            onClick={() => set("App")}
           >
             APP
           </div>
           <div
             className={PCSS.WEB}
-            id={show === "WEB" ? "selected" : "NotSelected"}
-            onClick={() => set("WEB")}
+            id={show === "Web" ? "selected" : "NotSelected"}
+            onClick={() => set("Web")}
           >
             WEB
           </div>
         </div>
       </div>
       <>
-        {Graphic ? (
+        {map ? (
           <div className={PCSS.mapParentDiv}>
-            {Graphic.map((value, key) => {
+            {map.map((value, key) => {
               return (
                 <img
                   key={key}
