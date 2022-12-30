@@ -9,8 +9,20 @@ export default function Portfolio() {
   const [map, setMap] = useState("Graphic");
 
   useEffect(() => {
-    console.log(show);
+    // setMap(show);
+    if (show === "Graphic") {
+      setMap(Graphic);
+    } else if (show === "App") {
+      setMap(App);
+    } else if (show === "Web") {
+      setMap(Web);
+    }
   }, [show]);
+
+  useEffect(() => {
+    console.log(show);
+    console.log(map);
+  }, [map]);
 
   return (
     <div className={PCSS.mDiv}>
