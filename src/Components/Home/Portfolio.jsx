@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+
+// Css
 import PCSS from "./Css/Portfolio.module.css";
+
+// Data
 import Graphic from "./../../Data/Graphic.json";
 import App from "./../../Data/App.json";
 import Web from "./../../Data/Web.json";
